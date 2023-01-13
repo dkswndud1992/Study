@@ -4,18 +4,45 @@ There are 3 things you need to know.
 - Finding Your Goal in Life.
 - Write down a list of companies related to your goals.
 - Find a mentor (blog, YouTube, meetings, Discord, open chatting, books)
-<br/>
+<br/><br/>
 
-I'm in discord
+I'm in Discord
 - enlightmenten
 - flutter_korea
+<br/><br/>
 
-회사 목록
-교육용게임 : 라이언게임즈, 넥슨, 블리자드
-블럭코딩 : 엔트리, 스크래치, 블럭리
+My interests
+- ⚪️ Games
+- 🟠 Coding
+- 🟢 Education
+<br/><br/>
 
-수익창출방법
+List of companies
+- ⚪️ : Riot Games, Nexon, Blizzard
+- 🟠 : Google, Oracle, Microsoft
+- 🟢 : Daekyo, Megastudy, WoongjinThinkbig
+<br/><br/>
 
-동향
+Monetization
+- ⚪️ : Purchasing games and in-game items
+- 🟠 : software or hardware or nothing
+- 🟢 : Smart learning, study materials (English education, civil service exam)
+<br/><br/>
 
-문제점
+Trends
+- ⚪️ : Purchasing in-game items, vs
+- 🟠 : software or hardware
+- 🟢 : Smart learning
+<br/><br/>
+
+Problem
+- ⚪️ : sense of futility
+- 🟠 : still difficult
+- 🟢 : no fun
+<br/><br/>
+
+Solution
+- ⚪️ : 🟢🟠
+- 🟠 : 🟢⚪️
+- 🟢 : 🟠⚪️
+<br/><br/>
