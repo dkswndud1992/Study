@@ -46,33 +46,34 @@ class MyHomePageState extends State<MyHomePage> {
               style: TextStyle(fontSize: 20),
             ),
             FutureBuilder(
-                future: _fetch1(),
-                builder: (BuildContext context, AsyncSnapshot snapshot) {
-                  // This part means the part that is executed when the data has not yet been received.
-                  if (snapshot.hasData == false) {
-                    return const CircularProgressIndicator();
-                  }
-                  // The part returned when an error occurs
-                  else if (snapshot.hasError) {
-                    return Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        'Error: ${snapshot.error}',
-                        style: const TextStyle(fontSize: 15),
-                      ),
-                    );
-                  }
-                  // If the data is received normally, the next part is executed.
-                  else {
-                    return Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        snapshot.data.toString(),
-                        style: const TextStyle(fontSize: 15),
-                      ),
-                    );
-                  }
-                })
+              future: _fetch1(),
+              builder: (BuildContext context, AsyncSnapshot snapshot) {
+                // This part means the part that is executed when the data has not yet been received.
+                if (snapshot.hasData == false) {
+                  return const CircularProgressIndicator();
+                }
+                // The part returned when an error occurs
+                else if (snapshot.hasError) {
+                  return Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Error: ${snapshot.error}',
+                      style: const TextStyle(fontSize: 15),
+                    ),
+                  );
+                }
+                // If the data is received normally, the next part is executed.
+                else {
+                  return Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      snapshot.data.toString(),
+                      style: const TextStyle(fontSize: 15),
+                    ),
+                  );
+                }
+              },
+            ),
           ],
         ),
       ),
